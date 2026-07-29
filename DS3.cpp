@@ -1,7 +1,7 @@
 #include<stdio.h>
 int front=-1,rear=-1,x,c;
-int MaxSize=5;
-int cirqueue[5];
+int MaxSize=10;
+int cirqueue[10];
 int isFull()
 {
     if(((rear+1)%MaxSize)==front)
